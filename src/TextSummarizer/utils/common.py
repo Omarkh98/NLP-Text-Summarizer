@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 @ensure_annotations
-def read_yaml(path_to_yaml: Path) -> config_box:
+def read_yaml(path_to_yaml: Path) -> config_box.ConfigBox:
     """
     Read Yaml file and return Configbox type
     """
