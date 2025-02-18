@@ -17,5 +17,5 @@ ensure
 fastapi
 uvicorn
 Jinja2
-python-box[all]~=7.0
+python-box==6.0.2
 -e .
