@@ -18,4 +18,5 @@ fastapi
 uvicorn
 Jinja2
 python-box==6.0.2
+evaluate
 -e .
